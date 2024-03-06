@@ -109,6 +109,8 @@ body{
     
 }
 
+
+
 .quickActionInner{
 
  
@@ -119,6 +121,7 @@ body{
     width: 18em;
     background-color: #FF6D00;
 }
+
 .quickActionInner   a h3{
     position: absolute;
     color: white;
@@ -155,3 +158,13 @@ body{
     
 }
 
+.cursor{
+    position: fixed;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    transition: 0.1s;
+    background-color: #FF6D00;
+    transform: translate(-50%,-50%);
+    pointer-events: none;
+}
