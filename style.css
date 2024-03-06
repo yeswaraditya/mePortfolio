@@ -21,10 +21,28 @@ body{
     
 
 }
-.title #roletext h1{
- 
+.header img{
     position: absolute;
-    
+
+    margin-left: 2em;
+    padding: 1em;
+  
+}
+#profileimg{
+
+    position:absolute;
+    margin-left: 60em;
+
+   
+   
+   
+      
+   }
+.title #roletext h1{
+   
+    margin-left: 33px;
+    position: absolute;
+    z-index: -1;
     color: white;
     font-size: 10em;
     opacity: 18%;
@@ -36,20 +54,20 @@ body{
 }
 
 .title #roletext #rt1{
-
+    margin-top: 7vh;
     color: #FF6D00;
        
 }
 .title #roletext #rt2{
-  
-    margin-left: 4em;
+    margin-top: 7vh;
+    margin-left: 76vh;
     
    
 }
 .title #roletext #rt3{
   
    
-    margin-top: 1em;
+    margin-top: 22vh;
 
 
 
@@ -60,3 +78,5 @@ body{
     color: #FF6D00;
    
 }
+
+
