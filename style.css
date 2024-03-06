@@ -10,13 +10,14 @@ body{
 
 /* containing title name image button */
 .title #shadow{
+    z-index: -2;
     position: absolute;
     height: 10em;
     width: 10em;
     border-radius: 50%;
     background-color: #FF6D00;
     margin-left: 98em;
-    filter: blur(11em);
+    filter: blur(8em);
     
     
 
@@ -28,7 +29,7 @@ body{
     border-radius: 50%;
     background-color: #FF6D00;
     margin-top: 28em;
-    filter: blur(13em);
+    filter: blur(8em);
     
     
 
