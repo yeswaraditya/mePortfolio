@@ -92,14 +92,17 @@ body{
 }
 
 .quickAction{
+ 
     margin-top: 33em;
     margin-left: 2em;
     border-radius: 6em;
     position: absolute;
     height: 8em;
     width: 35em;
-    border: white solid 1.5px;
-    background-color: white 8%;
+    border: white solid 1px;
+    background-color: rgba(255,255,255,.1);
+    
+
     
     
     
