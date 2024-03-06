@@ -171,5 +171,76 @@ body{
     pointer-events: none;
 }
 @media only screen and (max-width: 620px){
+
+}
+
+#shadow2{
+    position: absolute;
+    height: 10em;
+    width: 10em;
+    border-radius: 50%;
+    background-color: #FF6D00;
+    margin-top: 50em;
+    filter: blur(11em);
     
+    
+
+}
+
+.aboutMeContainer{
+    margin-top: 63em;
+    margin-left: 2em;
+    border-radius: 1em;
+    position: absolute;
+    height: 40em;
+    width: 100em;
+    border: white solid 1px;
+    background-color: rgba(255,255,255,.1);
+    /* border-image: linear-gradient(to right, rgba(255, 109, 0, 1),rgba(153, 153, 153, 1)); */
+    
+}
+
+.verticalContainer{
+    position: absolute;
+    height: 30em;
+    width: 2px;
+    background-color: #FF6D00;
+    margin-top: 5em;
+    margin-left: 5em;
+
+}
+.aboutMeContainer ol{
+ 
+    margin-top: 3.5em;
+    margin-left: 4em;
+    list-style-type: none;
+    font-family: "Inter", sans-serif;
+   font-optical-sizing: auto;
+   font-size: 25px;
+   color: white;
+   opacity: .9;
+
+    
+}
+.aboutMeContainer li{
+ 
+    margin-bottom: 1.5em;
+
+    
+}
+.aboutMe{
+    position: absolute;
+    margin-top: 0.5em;
+    margin-left: 3em;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 35px;
+    color: white;
+    opacity: .9;
+
+}
+.aboutMe span{
+    color:#FF6D00;
+    opacity: .9;
+
 }
