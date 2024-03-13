@@ -250,7 +250,7 @@ body{
     width: 105em;
     position: absolute;
     background-color: rgba(16, 24, 38, 1);
-    margin-top: 110em;
+    margin-top: 200em;
 
 }
 
@@ -260,7 +260,7 @@ body{
    flex-direction: row;
    float: left;
    position: absolute;
-    margin-top: 123em;
+    margin-top: 265em;
    
     list-style-type: none;
 }
@@ -289,3 +289,119 @@ body{
 
   
 }
+.projectcontainer{
+    margin-top: 110em;
+    margin-left: 2em;
+    border-radius: 1em;
+    position: absolute;
+    width: 1605px;
+    height: 1478px;
+    flex-shrink: 0;
+    border: white solid 1px;
+    background-color: rgba(255,255,255,.1);
+    /* border-image: linear-gradient(to right, rgba(255, 109, 0, 1),rgba(153, 153, 153, 1)); */
+    
+
+    
+}
+.projectcontainer #shadow3{
+    position: absolute;
+    height: 10em;
+    width: 10em;
+    border-radius: 50%;
+    background-color: #FF6D00;
+    margin-top:9em;
+    margin-left: 90%;
+    filter: blur(10em);
+    z-index: -1;
+    
+    
+
+}
+.projectcontainer #star1{
+   
+    margin-top: 1em;
+    margin-left: 1.5em;
+    position: absolute;
+   
+    
+
+}
+.projectcontainer #star2{
+   
+    margin-top: 1em;
+    margin-left: 95em;
+    position: absolute;
+   
+    
+
+}
+.projectcontainer #wallpaperContainer1{
+    width: 300px;
+    height: 379px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    margin-top: 15em;
+    margin-left: 3em;
+    position: absolute;
+
+}
+.projectcontainer #wallpaperContainer1 #mw1{
+    width: 300px;
+    height: 379px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    position: absolute;
+
+}
+.projectcontainer #wallpaperContainer2{
+    width: 300px;
+    height: 379px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    margin-top: 12em;
+    margin-left: 16em;
+    position: absolute;
+    box-shadow: -10px 14px 25.1px 0px rgba(0, 0, 0, 0.25);
+
+}
+.projectcontainer #wallpaperContainer2 #mw2{
+    width: 300px;
+    height: 379px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    position: absolute;
+
+}
+.projectcontainer #wallText{
+   
+    color: #FFF;
+    font-family: "Plus Jakarta Sans";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 250;
+    line-height: normal;
+    text-transform: capitalize;
+    position: absolute;
+    margin-top: 4.5em;
+    margin-left: 10em;
+   
+}
+.projectcontainer span{
+   
+    color: #FF6D00;
+    font-family: "Plus Jakarta Sans";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: capitalize;
+    position: absolute;
+    margin-top: 9.8em;
+    margin-left: 16.8em;
+   
+}
+
+
+
+
