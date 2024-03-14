@@ -17,7 +17,7 @@ body{
     width: 10em;
     border-radius: 50%;
     background-color: #FF6D00;
-    margin-left: 98em;
+    margin-left: 79em;
     filter: blur(8em);
     
     
@@ -38,14 +38,14 @@ body{
 .header img{
     position: absolute;
 
-    margin-left: 2em;
+    margin-left: 1em;
     padding: 1em;
   
 }
 #profileimg{
 
     position:absolute;
-    margin-left: 60em;
+    margin-left: 46em;
 
    
    
@@ -58,7 +58,7 @@ body{
     position: absolute;
     z-index: -1;
     color: white;
-    font-size: 10em;
+    font-size: 8em;
     opacity: 18%;
     font-family: "Goldman", sans-serif;
     font-weight: 700;
@@ -116,7 +116,7 @@ body{
 .quickActionInner{
 
  
-    margin-top: 2.5vh;
+    margin-top: 3vh;
     margin-left: 2vh;
     border-radius: 6em;
     height: 5em;
@@ -127,7 +127,7 @@ body{
 .quickActionInner   a h3{
     position: absolute;
     color: white;
-    margin-left: 34px;
+    margin-left: 50px;
     padding-top: 13px;
    font-family: "Inter", sans-serif;
    font-optical-sizing: auto;
@@ -139,8 +139,8 @@ body{
 }
 .quickActionInner   #qa2 img{
     position: absolute;
-   margin-top: 2.5vh;
-   margin-left: 24vh;
+   margin-top: 2.7vh;
+   margin-left: 29.8vh;
 
     
    
@@ -149,7 +149,7 @@ body{
 .quickActionInner   #qa3 h3{
     position: absolute;
     color: white;
-    margin-left: 35vh;
+    margin-left: 43vh;
     padding-top: 15px;
    font-family: "Inter", sans-serif;
    font-optical-sizing: auto;
@@ -193,7 +193,7 @@ body{
     border-radius: 1em;
     position: absolute;
     height: 40em;
-    width: 100em;
+    width: 85em;
     border: white solid 1px;
     background-color: rgba(255,255,255,.1);
     /* border-image: linear-gradient(to right, rgba(255, 109, 0, 1),rgba(153, 153, 153, 1)); */
@@ -247,7 +247,7 @@ body{
 
 .footer{
     height: 30em;
-    width: 105em;
+    width: 90em;
     position: absolute;
     background-color: rgba(16, 24, 38, 1);
     margin-top: 220em;
@@ -265,7 +265,7 @@ body{
     list-style-type: none;
 }
 .footerlist li{
-   margin-left: 100px;
+   margin-left: 70px;
 }
 
 .footerlist a{
@@ -294,7 +294,7 @@ body{
     margin-left: 2em;
     border-radius: 1em;
     position: absolute;
-    width: 1605px;
+    width: 85em;
     height: 1660px;
     flex-shrink: 0;
     border: white solid 1px;
@@ -330,7 +330,7 @@ body{
 .projectcontainer #star2{
    
     margin-top: 1em;
-    margin-left: 95em;
+    margin-left: 80em;
     position: absolute;
    
     
@@ -404,13 +404,13 @@ body{
 
 .projectcontainer #wallpaperContainer3 #dw1{
     /* blue wallpaper */
-    width: 590px;
-    height: 379px;
+    width: 470px;
+    height: 300px;
     flex-shrink: 0;
     border-radius: 8px;
     position: absolute;
-    margin-top: 78em;
-    margin-left: 60em;
+    margin-top: 72em;
+    margin-left: 54em;
     z-index: +1;
     box-shadow: -11px -1px 27.7px 0px rgba(0, 0, 0, 0.25);
 
@@ -418,19 +418,19 @@ body{
 }
 .projectcontainer #wallpaperContainer4 #dw2{
     /* orange wallpaper */
-    width: 590px;
-    height: 379px;
+    width: 470px;
+    height: 300px;
     flex-shrink: 0;
     border-radius: 8px;
     position: absolute;
     margin-top: 50em;
-    margin-left: 60em;
+    margin-left: 54em;
 
 }
 .projectcontainer #wallpaperContainer5 #dw3{
     /* green wallpaper */
-    width: 590px;
-    height: 379px;
+    width: 470px;
+    height: 300px;
     flex-shrink: 0;
     border-radius: 8px;
     position: absolute;
