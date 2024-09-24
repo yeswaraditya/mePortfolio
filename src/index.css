@@ -2,12 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
-.fontGimletNarrow{
-    font-family: "Gimlet Display Narrow";
+.fontGimletNarrow {
+    font-family: "gimlet-display-narrow";
 }
-.fontGimletCompressed{
-    font-family: "Gimlet Display Compressed";
+
+.fontGimletCompressed {
+    font-family: "gimlet-display-compressed";
 }
-.fontOwners{
-    font-family:"Owners Text";
+
+.fontGimletCondensed {
+    font-family: "gimlet-display-condensed";
+}
+
+.fontOwners {
+    font-family: "owners-text", sans-serif;
+    /* font-weight: 800; */
+    /* font-style: italic; */
+}
+
+.fontLoosWide {
+    font-family: "loos-wide", sans-serif;
+    /* font-weight: 800;
+    font-style: normal; */
 }

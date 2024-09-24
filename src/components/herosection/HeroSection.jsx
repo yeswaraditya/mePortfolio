@@ -20,10 +20,11 @@ function HeroSection() {
                 <h1 className='text-7xl font-normal'>Eswar Aditya*</h1>
                 <p className='mt-4 text-2xl font-light'>U r not Lazy, just CREATIVE</p>
             </div>
+
+            <div className='mt-16 border-[#004D40] border-4 rounded-full mx-56'>
+            </div>
+            <h1 className='fontGimletCondensed mt-8 text-5xl ms-56'>About me</h1>
         </div>
-
-
-
 
 
         // <div className='mt-10'>

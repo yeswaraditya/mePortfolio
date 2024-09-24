@@ -4,15 +4,16 @@ import HeroSection from '../herosection/HeroSection'
 import AboutMe from '../aboutme/AboutMe'
 import Services from '../services/Services'
 import HireMe from '../hireme/HireMe'
+import WhatsappCommunity from '../whatsappCommunity/WhatsappCommunity'
 function Home() {
     return (
         <div>
             <Navbar />
             <HeroSection />
-            <AboutMe/>
+            <AboutMe />
             <Services />
             <HireMe />
-            
+            <WhatsappCommunity />
         </div>
     )
 }
