@@ -1,11 +1,10 @@
 import React from 'react'
+import Home from './components/home/Home'
 
 function App() {
   return (
     <div>
-      <h1 className="text-3xl text-blue-900 font-bold underline ">
-        Hello world!
-      </h1>
+      <Home />
     </div>
   )
 }
