@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.fontGimletNarrow{
+    font-family: "Gimlet Display Narrow";
+}
+.fontGimletCompressed{
+    font-family: "Gimlet Display Compressed";
+}
+.fontOwners{
+    font-family:"Owners Text";
+}
