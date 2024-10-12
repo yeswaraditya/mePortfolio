@@ -23,7 +23,6 @@ function HeroSection() {
 
             <div className='mt-16 border-[#004D40] border-4 rounded-full mx-5 sm:mx-56'>
             </div>
-            <h1 className='fontGimletCondensed mt-8 text-5xl ms-5 sm:ms-56'>About me</h1>
         </div>
 
 

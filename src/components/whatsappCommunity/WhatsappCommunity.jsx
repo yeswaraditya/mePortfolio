@@ -3,9 +3,9 @@ import whatsAppQr from '../../assets/whatsappQr.png'
 
 function WhatsappCommunity() {
     return (
-        <div className='bg-[#000] text-[#fff] p-10'>
-            <h1 className='text-5xl'>Whatsapp</h1>
-            <h1 className='text-5xl'>Community</h1>
+        <div className='fontLoosWide bg-[#000] text-[#fff] p-10 pt-20'>
+            <h1 className='text-4xl'>Whatsapp</h1>
+            <h1 className='text-4xl'>Community</h1>
             {/* <div className='border-1 border-[#25D366] p-4 '> */}
             <div className='border-[#25D366] p-4 sm:p-16 mt-10 flex flex-col sm:flex-row items-start' style={{ borderWidth: '1px', borderStyle: 'solid' }}>
                 <img src={whatsAppQr} width={200} alt="" className='hidden sm:block' />
