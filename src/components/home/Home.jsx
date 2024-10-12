@@ -13,7 +13,7 @@ function Home() {
         <div>
             <Navbar />
             <HeroSection />
-            <AboutMe />
+            {/* <AboutMe /> */}
             <Skills />
             <Services />
             <Testimonals />
