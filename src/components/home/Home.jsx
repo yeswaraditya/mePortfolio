@@ -10,7 +10,7 @@ import Skills from '../skills/Skills'
 import NewsLetter from '../newsLetter/NewsLetter'
 function Home() {
     return (
-        <div>
+        <div className='overflow-hidden overflow-wrap'>
             <Navbar />
             <HeroSection />
             <AboutMe />
