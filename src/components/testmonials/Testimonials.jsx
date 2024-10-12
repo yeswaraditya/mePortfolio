@@ -23,7 +23,7 @@ function Testimonals() {
           </div>
         ))}
       </div>
-      <p className='text-white text-4xl sm:text-6xl mt-40 mb-8'>Testimonials</p>
+      <p className='text-white text-6xl mt-10 sm:mt-40 mb-8'>Testimonials</p>
     </div>
   );
 }

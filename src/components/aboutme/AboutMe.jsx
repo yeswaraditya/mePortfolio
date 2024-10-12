@@ -4,7 +4,7 @@ import GoTo from './GoTo';
 import Underline from './Underline';
 const AboutMe = () => {
     return (
-        <div className=' flex flex-row justify-around bg-black text-white w-100  p-0'>
+        <div className='overflow-hidden overflow-wrap flex flex-row justify-around bg-black text-white w-100  p-0'>
             {/* Text */}
             <div className=' w-100 md:w-4/5 flex flex-col justify-start md:justify-between  md:gap-y-20 items-start px-5 pt-5 md:pt-12 md:px-0 md:py-6 md:pl-10 '>
                 <div className='fontOwners tracking-wider flex flex-col justify-around md:gap-14 font-normal '>
