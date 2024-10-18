@@ -18,7 +18,7 @@ function NewsLetter() {
 
                     <div className='flex flex-col items-start'>
                         <div className='pt-10 sm:mt-0 sm:ms-10 text-md md:text-lg'>
-                            <a href="#">
+                            <a href="https://eaditya.substack.com/">
                                 <p>Subscribe Now!</p>
                             </a>
                         </div>
