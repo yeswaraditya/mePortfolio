@@ -1,5 +1,5 @@
 import React from 'react';
-import Arrow from '/Users/yalagaddaeswaraditya/Desktop/mePortfolio/src/assets/services/arrow.svg'; // Update the path as necessary
+import Arrow from '../../assets/services/arrow.svg'; // Update the path as necessary
 
 const Footer = () => {
   const textColor = '#FFFFFF';
