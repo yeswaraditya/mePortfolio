@@ -8,6 +8,8 @@ import HireMe from '../hireme/HireMe'
 import WhatsappCommunity from '../whatsappCommunity/WhatsappCommunity'
 import Skills from '../skills/Skills'
 import NewsLetter from '../newsLetter/NewsLetter'
+import Footer from '../footer/Footer'
+
 function Home() {
     return (
         <div className='overflow-hidden overflow-wrap'>
@@ -20,6 +22,7 @@ function Home() {
             <HireMe />
             <WhatsappCommunity />
             <NewsLetter/>
+            <Footer/>
         </div>
     )
 }

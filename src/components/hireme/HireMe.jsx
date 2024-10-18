@@ -1,7 +1,7 @@
 import React from 'react';
 import hireme from '../../assets/hireme/hireme.svg'; 
 import Arrow from '../../assets/services/arrow.svg';
-
+import resume from '../../assets/resume/eswaraditya_resume.pdf';
 function HireMe() {
   return (
     <div className="relative w-full overflow-hidden bg-black"> 
@@ -12,14 +12,15 @@ function HireMe() {
       />
 
       <div className="absolute inset-0 flex items-center  justify-start ps-32 pt-28  sm:ps-52 sm:pt-28 lg:left-28  lg:pt-0  lg:pe-40 lg:ps-40 2xl:ps-72 pb-52">
-        <h1 className="text-white  text-2xl sm:text-5xl md:text-5xl  lg:text-9xl font-semibold uppercase tracking-wider">
+        <h1 className=" fontLoosExtended  text-white  text-2xl sm:text-5xl md:text-4xl  lg:text-9xl font-semibold uppercase tracking-wider">
           Hire Me.
         </h1>
       </div>
 
       <div className="absolute bottom-20 right-0 flex justify-end items-center w-full pe-1 sm:pe-5 lg:pb-10 xl:p-10">
         <a
-          href="/resume"
+          href={resume} // Point to the resume file in the public folder
+          download="Eswar_Aditya_Resume.pdf" // Download attribute to trigger file download
           className="text-white text-sm sm:text-lg md:text-2xl lg:text-4xl xl:text-5xl flex items-center font-light"
         >
           Resume

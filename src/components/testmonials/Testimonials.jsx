@@ -1,13 +1,27 @@
-import React from 'react'
+import React from 'react';
+
 function Testimonals() {
   const cards = [
-    { id: 1, name: 'Priya', content: 'Lorem ipsum dolor sit amet consectetur. Gravida augue est donec id risus amet sollicitudin vitae mattis. Vel leo lorem nunc quam. Elementum' },
-    { id: 2, name: 'Priya', content: 'Lorem ipsum dolor sit amet consectetur. Gravida augue est donec id risus amet sollicitudin vitae mattis. Vel leo lorem nunc quam. Elementum' },
-    { id: 3, name: 'Priya', content: 'Lorem ipsum dolor sit amet consectetur. Gravida augue est donec id risus amet sollicitudin vitae mattis. Vel leo lorem nunc quam. Elementum' },
+    { 
+        id: 1, 
+        name: 'Priya', 
+        content: "Eswar's expertise in UI/UX design has been crucial in shaping Everything Indian, as he has created an intuitive and visually captivating platform that enhances user engagement and effectively showcases our diverse products." 
+    },
+    { 
+        id: 2, 
+        name: 'Priya', 
+        content: 'Lorem ipsum dolor sit amet consectetur. Gravida augue est donec id risus amet sollicitudin vitae mattis. Vel leo lorem nunc quam. Elementum' 
+    },
+    { 
+        id: 3, 
+        name: 'Priya', 
+        content: 'Lorem ipsum dolor sit amet consectetur. Gravida augue est donec id risus amet sollicitudin vitae mattis. Vel leo lorem nunc quam. Elementum' 
+    },
   ];
 
   return (
     <div className="bg-black p-8">
+      <p className='text-center  text-white text-6xl mb-8'>Testimonials</p>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {cards.map(card => (
           <div key={card.id} className="bg-black border border-[#FFFFFF] px-6 pt-3 text-white">
@@ -23,12 +37,12 @@ function Testimonals() {
           </div>
         ))}
       </div>
-      <p className='text-white text-6xl mt-10 sm:mt-40 mb-8'>Testimonials</p>
     </div>
   );
 }
 
-export default Testimonals
+export default Testimonals;
+
 
 
 {/* <div className='flex flex-col items-start'>
@@ -43,3 +57,6 @@ export default Testimonals
     </svg>
 </div>
 </div> */}
+
+
+

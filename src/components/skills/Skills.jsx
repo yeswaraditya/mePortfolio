@@ -21,7 +21,7 @@ function Skills() {
                     <h1 className='p-4 sm:p-8 text-5xl sm:text-7xl text-[#FF6D00]'>Skills.</h1>
                     <div className='text-[#fff] text-2xl sm:text-4xl'
                         style={{
-                            fontWeight: '360'
+                            fontWeight: '10'
                         }}
                     >
                         <div className='mx-5 md:mx-20 flex justify-between'>
@@ -42,7 +42,7 @@ function Skills() {
                     <h1 className='p-4 sm:p-8 mb-10 sm:mb-20 text-5xl sm:text-7xl text-[#FF6D00]'>Projects.</h1>
                     <div className='text-[#fff] text-2xl sm:text-4xl'
                         style={{
-                            fontWeight: '400'
+                            fontWeight: '10'
                         }}
                     >
                         <div className='mx-5 md:mx-20 flex flex-col justify-center items-center underline'>

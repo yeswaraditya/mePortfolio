@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import eswarImage from '../../assets/Notch/eswarImage.svg';
 import Music from '../../assets/Notch/Music.svg';
-import RedSeaSong from '../../assets/redsea.mp3';
+import spidermansong from '../../assets/spidermansong.mp3';
 import MusicFix from '../../assets/Notch/Music_fix.svg';
 
 function Navbar() {
-  const [audio] = useState(new Audio(RedSeaSong));
+  const [audio] = useState(new Audio(spidermansong));
   const [isPlaying, setIsPlaying] = useState(false); // Start with audio paused
 
   useEffect(() => {
