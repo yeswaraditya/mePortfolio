@@ -7,16 +7,7 @@ function Testimonals() {
         name: 'Priya', 
         content: "Eswar's expertise in UI/UX design has been crucial in shaping Everything Indian, as he has created an intuitive and visually captivating platform that enhances user engagement and effectively showcases our diverse products." 
     },
-    { 
-        id: 2, 
-        name: 'Priya', 
-        content: 'Lorem ipsum dolor sit amet consectetur. Gravida augue est donec id risus amet sollicitudin vitae mattis. Vel leo lorem nunc quam. Elementum' 
-    },
-    { 
-        id: 3, 
-        name: 'Priya', 
-        content: 'Lorem ipsum dolor sit amet consectetur. Gravida augue est donec id risus amet sollicitudin vitae mattis. Vel leo lorem nunc quam. Elementum' 
-    },
+    
   ];
 
   return (
