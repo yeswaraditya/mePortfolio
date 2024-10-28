@@ -47,14 +47,19 @@ function Skills() {
                     >
                         <div className='mx-5 md:mx-20 flex flex-col justify-center items-center underline'>
 
-                            <div className='flex'>
-                                <p>Wallpaper Pack</p>
-                                <img src={projectsArrow} alt="Arrow" width={20} className='ms-3' />
-                            </div>
-                            <div className='flex mt-10'>
-                                <p>College Clubs</p>
-                                <img src={projectsArrow} alt="Arrow" width={20} className='ms-3' />
-                            </div>
+                        <div className='flex'>
+  <a href="https://github.com/yeswaraditya/Wallpapers" className="flex items-center">
+    <p>Wallpaper Pack</p>
+    <img src={projectsArrow} alt="Arrow" width={20} className='ms-3' />
+  </a>
+</div>
+<div className='flex mt-10'>
+  <a href="https://www.pvpsiddhartha.ac.in/dep_cse/cseclub/Home.html" className="flex items-center">
+    <p>College Clubs</p>
+    <img src={projectsArrow} alt="Arrow" width={20} className='ms-3' />
+  </a>
+</div>
+
                         </div>
                     </div>
                 </div>
